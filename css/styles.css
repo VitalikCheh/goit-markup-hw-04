@@ -40,6 +40,8 @@ ul {
 /* Header styles */
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-block {
   display: flex;
@@ -324,8 +326,9 @@ ul {
 }
 .ourteam-card-content {
   display: block;
-  padding: 32px 16px;
   border-radius: 0px 0px 4px 4px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .ourteam-title-name {
   font-weight: 500;
@@ -371,7 +374,28 @@ ul {
 .ourteam-social-icon {
   fill: #f4f4fd;
 }
-
+/* Customers */
+.customers {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.customers-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--primary-color-navyblue);
+  margin-bottom: 72px;
+}
+.customers-list-block {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: center;
+  height: 88px;
+}
 /* Footer styles */
 .footer {
   background-color: var(--primary-color-navyblue);
