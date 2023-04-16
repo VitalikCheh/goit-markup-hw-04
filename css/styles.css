@@ -115,6 +115,15 @@ ul {
 /* Hero styles */
 .hero {
   background-color: var(--primary-color-navyblue);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url("../images/people-office-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 1440px;
 }
 .section-hero {
   padding-top: 188px;
@@ -234,6 +243,15 @@ ul {
 }
 .ourwork-list {
   width: calc((100% - 72px) / 4);
+}
+.icon-ourwork {
+  display: flex;
+  height: 112px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+  background: #f4f4fd;
+  border-radius: 4px;
 }
 .work-title {
   font-weight: 500;
