@@ -396,6 +396,17 @@ ul {
   align-items: center;
   height: 88px;
 }
+.customers-list {
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+}
+.customers-list:hover,
+.customers-list:focus {
+  border: 1px solid #404bbf;
+}
+
 /* Footer styles */
 .footer {
   background-color: var(--primary-color-navyblue);
