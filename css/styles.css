@@ -126,6 +126,8 @@ ul {
   background-size: cover;
   background-position: center;
   max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .section-hero {
   padding-top: 188px;
